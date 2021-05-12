@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #F0F2F5;
+}
+
+#principal {}
+
+#principal .titulo {
+    flex-direction: row;
+}
+
+#principal .descricao {
+    display: flex;
+    flex-direction: row;
+}
+
+#principal .titulo>img {
+    height: 106px;
+    margin: 175px 0px 0px 0px;
+    padding-left: 11vw;
+    z-index: 1;
+}
+
+#principal .titulo>h2 {
+    margin: -10px 0px 0px 180px;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    z-index: 0;
+}
+
+#principal .login-password {
+    display: flex;
+    flex-direction: row;
+    margin: 130px 0px 0px px;
+    border-radius: 8px;
+    background-color: white;
+    height: 349px;
+    width: 398px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+#principal .login-password>form {
+    background-color: white;
+    margin: 15px 0px 0px 15px;
+}
+
+#principal .login-password>form>input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    height: 50px;
+    width: 358px;
+    border: solid 1px #DDDFE2;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#principal .login-password>form>input::placeholder {
+    padding-left: 15px;
+    color: #9094A9;
+}
+
+.entrar button {
+    height: 48px;
+    width: 362px;
+    background-color: #166FE5;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.esqueceu {
+    margin: 0px 0px 0px 120px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: normal;
+    color: #166FE5;
+}
+
+.linha {
+    background-color: rgb(201, 199, 199);
+    height: 1px;
+    width: 365px;
+}
+
+.criar-conta button {
+    margin: 15px 0px 0px 105px;
+    height: 45px;
+    width: 160px;
+    background-color: #36A420;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.pagina-empresa {}
